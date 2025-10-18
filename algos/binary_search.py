@@ -4,6 +4,11 @@ def binary_search(input_list: list, target: int) -> bool:
 	while (end > start):
 		middle: int = int((end + start)/2)
 
+		print("start -> ", start)
+		print("end -> ", end)
+		print("middle -> ", middle)
+		print()
+
 		if target == input_list[middle]:
 			return True
 		elif target < input_list[middle]:
@@ -12,8 +17,8 @@ def binary_search(input_list: list, target: int) -> bool:
 			start = middle + 1
 	return False
 
-input_list = [3, 2, 10, 11, 33, 27]
+input_list = [1, 3]
 input_list.sort()
 print()
-print(binary_search(input_list, 33))
+print(binary_search(input_list, 3))
 
