@@ -1,3 +1,5 @@
+# Self Solved: False
+
 class Solution:
 	def containsDuplicate(self, nums: list[int]) -> bool:
 		a = set()
