@@ -1,9 +1,9 @@
 // -----------------------
-// Created       : 23/10/2025
-// Last Edited   : 23/10/2025
-// Self Solved   : True
-// Big O         : O(n)
+// Created       : 24/10/2025
+// Last Edited   : 24/10/2025
+// Big O         :
 // Topics        : 
+// Problem Id    : 217
 // -----------------------
 
 /**

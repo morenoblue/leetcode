@@ -1,7 +1,9 @@
 # -----------------------
-# Date       : 21/10/2025
-# Self Solved: False
-# Topics     : Bucket Sort
+# Created       : 21/10/2025
+# Last Edited   : 24/10/2025
+# Big O         :
+# Topics        : Bucket Sort
+# Problem Id    : 347
 # -----------------------
 
 class Solution:

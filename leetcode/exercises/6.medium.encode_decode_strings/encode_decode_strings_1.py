@@ -1,8 +1,9 @@
 # -----------------------
-# Date       : 22/10/2025
-# Self Solved: False
+# Created    : 22/10/2025
+# Last Edited: 24/10/2025
 # Topics     : 
-# Big O      : O(n)
+# Big O      :
+# Problem Id : 271
 # -----------------------
 
 class Solution:
@@ -32,8 +33,5 @@ class Solution:
         return decoded_string
 
 solution = Solution()
-
 print(solution.encode(["we","say",":","yes","!@#$%^&*()"]))
 print(solution.decode(solution.encode(["we","say",":","yes","!@#$%^&*()"])))
-
-

@@ -1,1 +1,9 @@
-// Self Solved: ?
+// -----------------------
+// Created       : 
+// Last Edited   : 
+// Big O         :
+// Topics        : 
+// Problem Id    : 347
+// -----------------------
+
+

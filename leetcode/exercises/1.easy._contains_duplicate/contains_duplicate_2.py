@@ -1,8 +1,7 @@
 # -----------------------
 # Created       : 23/10/2025
 # Last Edited   : 23/10/2025
-# Self Solved   : True
-# Big O         : O(n)
+# Big O         : 
 # Topics        : 
 # -----------------------
 
