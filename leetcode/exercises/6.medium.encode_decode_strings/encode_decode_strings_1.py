@@ -20,8 +20,8 @@ class Solution:
         decoded_string = []
 
         while c < len(s):
-            size = ""
 
+            size = ""
             while s[c] != "#":
                 size += str(s[c])
                 c += 1
