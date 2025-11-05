@@ -11,6 +11,9 @@
 #                    one <3. Thought I'm already getting ready to be absolutely 
 #                    reckt once I check for the other solutions just to find out
 #                    that mine is absolutely trash.
+#
+#                    **A few moments later** ...yep, it happened exactly how I 
+#                    predicted... I overcomplicated this thing... f*******ck!
 
 from collections import defaultdict
 
@@ -89,9 +92,3 @@ print(s.isValidSudoku([
                         [".",".",".","4","1","9",".",".","5"],
                         [".",".",".",".","8",".",".","7","9"],
       ]))
-
-
-
-
-        
-        
