@@ -10,16 +10,16 @@ class Solution:
 
     def productExceptSelf(self, nums: list[int]) -> list[int]:
         res = [1]
-        current = 1
+        postfix = 1
         for i in range(len(nums)-1):
-            res.append(current*nums[i]) 
-            current = current*nums[i] 
+            res.append(postfix*nums[i]) 
+            postfix *= nums[i] 
 
-        current = 1
+        prefix = 1
         for i in range(-1, -len(nums), -1):
-            res[i-1] = res[i-1]*current*nums[i]
-            current = current*nums[i] 
+            res[i-1] *= prefix*nums[i]
+            prefix *= nums[i] 
         return res
 
 s = Solution()
-print(s.productExceptSelf([2, 1, 3, 4]))
+print(s.productExceptSelf([1, 2, 3, 4]))
