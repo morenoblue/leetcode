@@ -28,4 +28,5 @@ var isAnagram = function(s, t) {
        s_counter[s[i]] = (s_counter[s[i]] ?? 0) + 1 
        t_counter[t[i]] = (t_counter[t[i]] ?? 0) + 1 
     };
+
 };
