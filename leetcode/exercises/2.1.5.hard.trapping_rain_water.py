@@ -1,3 +1,11 @@
+# -----------------------
+# Created    : 17/11/2025
+# Last Edited: 17/11/2025 
+# Topics     : 
+# Big O      :
+# Problem Id : 42
+# -----------------------
+
 class Solution:
     def trap(self, height: List[int]) -> int:
         res = 0
