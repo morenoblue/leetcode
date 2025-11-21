@@ -1,3 +1,4 @@
-random/
+random/*.c
+random/*.o
 **/ignore.*
 **/ignore_*
