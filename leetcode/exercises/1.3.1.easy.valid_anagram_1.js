@@ -1,9 +1,11 @@
 // -----------------------
-// Created       : 24/10/2025
-// Last Edited   : 24/10/2025
-// Big O         :
-// Topics        : 
-// Problem Id    : 242
+// Created     : 24/10/2025
+// Last Edited : 24/10/2025
+// Topics      : 
+// Big O       :
+// Problem Id  : 242
+// Source      :
+// Notes       :
 // -----------------------
 
 // note(@morenoblue): This solution isn't finished. I have no idea how to 

@@ -1,9 +1,11 @@
 # -----------------------
-# Created    : 19/11/2025
-# Last Edited: 19/11/2025 
-# Topics     : 
-# Big O      :
-# Problem Id : 150
+# Created     : 19/11/2025
+# Last Edited : 19/11/2025 
+# Topics      : 
+# Big O       :
+# Problem Id  : 150
+# Source      :
+# Notes       :
 # -----------------------
 
 import math

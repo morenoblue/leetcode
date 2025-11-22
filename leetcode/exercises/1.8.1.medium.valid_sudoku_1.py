@@ -1,12 +1,15 @@
 # -----------------------
-# Created    : 05/11/2025
-# Last Edited: 05/11/2025 
-# Topics     : 
-# Big O      :
-# Problem Id : 36
+# Created     : 05/11/2025
+# Last Edited : 05/11/2025 
+# Topics      : 
+# Big O       :
+# Problem Id  : 36
+# Source      :
+# Notes       :
 # -----------------------
 
 # note(@morenoblue): I'm kinda super proud of myself rn, this solution is 100% 
+#  Source      :
 #                    from my own brain, didn't check anywhere else to solve this
 #                    one <3. Thought I'm already getting ready to be absolutely 
 #                    reckt once I check for the other solutions just to find out

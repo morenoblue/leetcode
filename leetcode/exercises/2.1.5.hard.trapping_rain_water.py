@@ -1,9 +1,11 @@
 # -----------------------
-# Created    : 17/11/2025
-# Last Edited: 17/11/2025 
-# Topics     : 
-# Big O      :
-# Problem Id : 42
+# Created     : 17/11/2025
+# Last Edited : 17/11/2025 
+# Topics      : 
+# Big O       :
+# Problem Id  : 42
+# Source      :
+# Notes       :
 # -----------------------
 
 class Solution:

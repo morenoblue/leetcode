@@ -1,12 +1,15 @@
 # -----------------------
-# Created       : 20/10/2025
-# Last Edited   : 24/10/2025
-# Big O         :
-# Topics        : 
-# Problem Id    : 49
+# Created     : 20/10/2025
+# Last Edited : 24/10/2025
+# Topics      : 
+# Big O       :
+# Problem Id  : 49
+# Source      :
+# Notes       :
 # -----------------------
 
 from collections import defaultdict
+fr Source      :
 
 class Solution:
     def groupAnagrams(self, strs: list[str]) -> list[list[str]]:
