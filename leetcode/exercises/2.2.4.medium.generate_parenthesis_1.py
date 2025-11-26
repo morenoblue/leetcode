@@ -4,7 +4,7 @@
 # Topics      : 
 # Big O       :
 # Problem Id  : 150
-# References  :
+# References  : https://www.youtube.com/watch?v=s9fokUqJ76A
 # Notes       : Man this backtracking stuff is tuff
 # -----------------------
 

@@ -4,8 +4,8 @@
 # Topics      : 
 # Big O       :
 # Problem Id  : 150
-# References  :
-# Notes       : Man this backtracking stuff is tuff
+# References  : https://www.youtube.com/watch?v=s9fokUqJ76A
+# Notes       : Saw this one on the comments of the vid
 # -----------------------
 
 class Solution:
