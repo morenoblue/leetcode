@@ -1,6 +1,6 @@
 # -----------------------
 # Created     : 28/11/2025
-# Last Edited : 29/11/2025 
+# Last Edited : 30/11/2025 
 # Topics      : 
 # Big O       :
 # Problem Id  : 875. koko eating bananas
@@ -16,15 +16,20 @@ class Solution:
         res = r
 
         while l <= r:
+
             k = (r + l) // 2
+
             hours = 0
             for p in piles:
                 hours += math.ceil(p / k)
 
             if hours <= h:
-                res = min(res, k)
+                res = k
                 r = k - 1
             else:
                 l = k + 1
 
         return res
+
+s = Solution()
+print(s.minEatingSpeed([4,11,20,23,30], 5))
