@@ -1,0 +1,42 @@
+// -----------------------
+// Created     : 04/12/2025
+// Last Edited : 04/12/2025 
+// Topics      : 
+// Big O       :
+// Problem Id  : 33. Search in Rotated Sorted Array
+// References  : https://www.youtube.com/watch?v=U8XENwh8Oy8
+// Notes       : Damn, got absolutely rekt by this one. No problem though, 
+//               Neetcode for the rescue
+// -----------------------
+
+/**
+ * @param {number[]} nums
+ * @param {number} target
+ * @return {number}
+ */
+var search = function(nums, target) {
+    let l = 0;
+    let r = nums.length - 1;
+    while (l <= r) {
+        let m = Math.floor(l + (r - l) / 2)
+        if (target === nums[m]) { return m; }
+
+        if (nums[l] <= nums[m]) {
+            if (target > nums[m] || target < nums[l]) {
+                l = m + 1;
+            } else {
+                r = m - 1;
+            }
+        } else {
+            if (target < nums[m] || target > nums[r]) {
+                r = m - 1;
+            } else {
+                l = m + 1;
+            }
+        }
+    }
+    return -1;
+    
+};
+
+console.log(search([4,5,6,7,0,1,2], 0));
