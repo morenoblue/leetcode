@@ -9,7 +9,6 @@
 # -----------------------
 
 from collections import defaultdict
-fr Source      :
 
 class Solution:
     def groupAnagrams(self, strs: list[str]) -> list[list[str]]:
